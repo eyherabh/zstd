@@ -102,7 +102,7 @@ Zstandard frames contain compressed data, while
 skippable frames contain no data and can be used for metadata.
 
 ## Zstandard frames
-The structure of a single Zstandard frame is following:
+The structure of a single Zstandard frame is the following:
 
 | `Magic_Number` | `Frame_Header` |`Data_Block`| [More data blocks] | [`Content_Checksum`] |
 |:--------------:|:--------------:|:----------:| ------------------ |:--------------------:|
